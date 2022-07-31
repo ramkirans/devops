@@ -1,7 +1,5 @@
 #!/bin/bash
 NUM=$1
-
-
 while [ $NUM -ge 0 ];
 do
 	echo "$NUM"

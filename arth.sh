@@ -1,12 +1,8 @@
 #!/bin/bash
-
-
 VAR1=$1
 VAR2=$2
-
 SUM=0
 MUL=1
-
 SUM=`expr $VAR1 + $VAR2`
 MUL=`expr $VAR1 \* $VAR2`
 
