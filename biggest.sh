@@ -1,5 +1,4 @@
 #!/bin/bash
-
 BIG=$1
 
 for i in $*
