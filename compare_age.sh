@@ -1,5 +1,4 @@
 #!/bin/bash
-
 sed '1d' $1 > del.txt
 echo "NAME OF THE PERSONS WHOSE AGE IS GREATER THAN $2 is:"
 
