@@ -7,3 +7,4 @@ do
 
 done
 echo "SUM OF $* NUMBERS IS $SUM"
+echo "#########################"
