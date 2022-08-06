@@ -4,7 +4,6 @@ then
 	echo "PLEASE PASS ONLY 3 INPUTS"
 	exit 
 fi
-
 if [ $1 -gt $2 ] && [ $1 -gt $3 ];
 then
 	echo "$1 is biggest"

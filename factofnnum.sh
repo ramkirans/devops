@@ -1,5 +1,4 @@
 #!/bin/bash
-
 fact ()
 {
 	while [ $NUM -ge 1 ];
@@ -9,13 +8,11 @@ fact ()
 	done
 	echo "FACTORIAL OF $VAR IS $FAC"
 }
-
 addition ()
 {
 	SUM=`expr $SUM + $VAR`
 	
 }
-
 for i in $*
 do
 	FAC=1
@@ -25,3 +22,4 @@ do
         addition	
 done
 echo "SUM of $* is $SUM"
+echo "SUM OF $* is $SUM"
